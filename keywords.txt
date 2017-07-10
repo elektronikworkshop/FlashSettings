@@ -1,0 +1,6 @@
+FlashDataBase   KEYWORD1
+FlashSettings   KEYWORD1
+
+begin        KEYWORD2
+update       KEYWORD2
+fletcher16   KEYWORD2
