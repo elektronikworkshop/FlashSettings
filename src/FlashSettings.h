@@ -60,7 +60,7 @@ public:
   bool
   begin()
   {
-    /* Here are some nice examples, why the support of type_traits is a good
+    /* Here are some nice examples why the support of type_traits is a good
      * idea:
      */
 
