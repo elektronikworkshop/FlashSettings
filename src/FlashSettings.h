@@ -17,7 +17,7 @@
 
 #include <EEPROM.h>
 
-#if defined(ARDUINO_ARCH_ESP8266)
+#if defined(ARDUINO_ARCH_ESP8266) || defined(ARDUINO_ARCH_ESP32)
 # include <type_traits>
 # define EW_HAVE_TYPE_TRAITS  1
 #else
