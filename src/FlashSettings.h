@@ -10,8 +10,7 @@
  *  * templating to make it reusable
  *  * more type checking to avoid some nasty surprises
  */
-#ifndef _EW_FLASH_SETTINGS_H
-#define _EW_FLASH_SETTINGS_H
+#pragma once
 
 // TODO: EEPROM class behaves differently in ESP and AVR - more work required
 
@@ -148,5 +147,3 @@ public:
      return (sum2 << 8) | sum1;
   }
 };
-
-#endif  /* #define _EW_FLASH_SETTINGS_H */
